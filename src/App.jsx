@@ -1,11 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import './assets/styles/style.css'
+import AddThings from './components/AddThings'
+import CountRender from './components/CountRender'
+import InputReference from './components/InputReference'
 
 function App() {
-
     return (
         <>
+            <AddThings />
 
+            <CountRender />
+
+            <InputReference />
         </>
     )
 }
