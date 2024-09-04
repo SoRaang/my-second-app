@@ -538,6 +538,10 @@ a:hover, a:focus, a:active {
 
 /* _defaultColor.scss */
 /* _commons.scss */
+#root {
+  margin: auto;
+}
+
 #wrap {
   position: relative;
   width: 100%;
@@ -587,6 +591,10 @@ a:hover, a:focus, a:active {
 /* _headers.scss */
 /* _headers.scss */
 /* _mainPage.scss */
+#burgerShop {
+  margin: auto;
+}
+
 /* _mainPage.scss */
 /* _subPages.scss */
 /* _subPages.scss */

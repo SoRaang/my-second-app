@@ -9,7 +9,7 @@ const BurgerShop = () => {
     }
 
     return (
-        <div>
+        <div id="burgerShop">
             <dl>
                 <dt>{ state.itemName }</dt>
                 <dd>{ state.itemPrice }원</dd>

@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 1rem auto;
+}
+.wrapper .userInfo {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.wrapper .userInfo-thead-tr {
+  font-weight: bold;
+  background-color: darkblue;
+  color: white;
+  border-bottom: 2px solid gray;
+}
+.wrapper .userInfo-tbody-tr {
+  border-bottom: 2px solid gray;
+}
+
+.deleteBtn {
+  border: none;
+  background-color: white;
+}
