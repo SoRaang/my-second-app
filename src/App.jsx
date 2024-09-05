@@ -1,6 +1,7 @@
 import './assets/styles/style.css'
+import HomeComponent from './components/HomeComponent';
 // import BankTest from './components/BankTest'
-import AddUser from './components/AddUser'
+// import AddUser from './components/AddUser'
 // import AddThings from './components/AddThings'
 // import BurgerShop from './components/BurgerShop'
 // import CountRender from './components/CountRender'
@@ -40,9 +41,11 @@ function App() {
 
             <hr />
 
-            <BankTest /> */}
+            <BankTest />
 
-            <AddUser />
+            <AddUser /> */}
+
+            <HomeComponent />
         </>
     )
 }
