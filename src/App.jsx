@@ -1,5 +1,9 @@
+import { ColorContext } from './assets/programs/context';
 import './assets/styles/style.css'
-import HomeComponent from './components/HomeComponent';
+import ColorBox from './components/ColorBox';
+import TodoFetching from './components/TodoFetching';
+import UserFetcing from './components/UserFetcing';
+// import HomeComponent from './components/HomeComponent';
 // import BankTest from './components/BankTest'
 // import AddUser from './components/AddUser'
 // import AddThings from './components/AddThings'
@@ -11,41 +15,51 @@ import HomeComponent from './components/HomeComponent';
 // import UseCallBackTest from './components/UseCallBackTest'
 
 function App() {
+    const whatColor = prompt('어떤 색상으로 하시겠어요?');
+
     return (
         <>
-            {/* <AddThings />
+            <ColorContext.Provider value={ whatColor }>
+                {/* <AddThings />
 
-            <hr />
+                <hr />
 
-            <CountRender />
+                <CountRender />
 
-            <hr />
+                <hr />
 
-            <InputReference />
+                <InputReference />
 
-            <hr />
+                <hr />
 
-            <UseCallBackTest />
+                <UseCallBackTest />
 
-            <hr />
+                <hr />
 
-            <MemoAndCallBack />
+                <MemoAndCallBack />
 
-            <hr />
+                <hr />
 
-            <ReducerTest />
+                <ReducerTest />
 
-            <hr />
+                <hr />
 
-            <BurgerShop />
+                <BurgerShop />
 
-            <hr />
+                <hr />
 
-            <BankTest />
+                <BankTest />
 
-            <AddUser /> */}
+                <AddUser />
 
-            <HomeComponent />
+                <HomeComponent /> */}
+
+                <ColorBox />
+
+                <TodoFetching />
+
+                <UserFetcing />
+            </ColorContext.Provider>
         </>
     )
 }
