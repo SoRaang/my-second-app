@@ -1,8 +1,9 @@
 import { ColorContext } from './assets/programs/context';
 import './assets/styles/style.css'
-import ColorBox from './components/ColorBox';
-import TodoFetching from './components/TodoFetching';
-import UserFetcing from './components/UserFetcing';
+// import ColorBox from './components/ColorBox';
+import MyFetchingTodo from './components/MyFetchingTodo';
+// import TodoFetching from './components/TodoFetching';
+// import UserFetcing from './components/UserFetcing';
 // import HomeComponent from './components/HomeComponent';
 // import BankTest from './components/BankTest'
 // import AddUser from './components/AddUser'
@@ -52,13 +53,15 @@ function App() {
 
                 <AddUser />
 
-                <HomeComponent /> */}
+                <HomeComponent />
 
                 <ColorBox />
 
                 <TodoFetching />
 
-                <UserFetcing />
+                <UserFetcing /> */}
+
+                <MyFetchingTodo />
             </ColorContext.Provider>
         </>
     )

@@ -18,10 +18,10 @@ const TodoFetching = () => {
     return (
         <div>
             { data.map(item => (
-                <>
+                <div key={ item.index }>
                     <h3>Todo: { item.title }</h3>
                     <p>Status: <input type="checkbox" checked={ item.completed } /></p>
-                </>
+                </div>
             )) }
         </div>
     );

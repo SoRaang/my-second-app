@@ -17,12 +17,12 @@ const UserFetcing = () => {
 
     return (
         <div>
-            { data.map(item => (
-                <>
+            { data.map((item, index) => (
+                <div key={ index }>
                     { console.log(item) }
                     <p>Name : { item.name }</p>
                     <p>e-mail : { item.email }</p>
-                </>
+                </div>
             )) }
         </div>
     );
